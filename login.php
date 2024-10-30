@@ -12,6 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $studentName = $_POST['studentName'] ?? '';
     $studentNo = $_POST['studentNo'] ?? '';
 
+    
     if (!empty($studentName) && !empty($studentNo)) {
         // Check if the student number exists in the database
         $stmt = $conn->prepare("SELECT * FROM student_meals WHERE student_name = ? AND student_no = ?");
