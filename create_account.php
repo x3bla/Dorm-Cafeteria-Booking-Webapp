@@ -6,6 +6,7 @@ if ($conn->connect_error) {
     die('Connection failed: ' . $conn->connect_error);
 }
 
+
 // Process form submission for creating an account
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $studentName = $_POST['studentName'] ?? '';
