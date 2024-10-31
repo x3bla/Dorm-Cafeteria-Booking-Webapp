@@ -1,10 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli('localhost', 'root', '', 'student_meals_db');
-
-if ($conn->connect_error) {
-    die('Connection failed: ' . $conn->connect_error);
-}
+include("db.php");
 
 
 // Process form submission for creating an account
