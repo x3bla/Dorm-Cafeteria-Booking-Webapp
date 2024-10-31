@@ -1,13 +1,8 @@
 <?php
 session_start();
 
-// Connect to the database
-$conn = new mysqli('localhost', 'root', '', 'student_meals_db');
+include("db.php");
 
-// Check for connection errors
-if ($conn->connect_error) {
-    die('Connection failed: ' . $conn->connect_error);
-}
 
 // Handle form submission and store student name in session
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['studentName'])) {
