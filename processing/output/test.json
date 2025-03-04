@@ -1,0 +1,874 @@
+[
+  {
+    "date": "2025-01-06",
+    "meal_time": {
+      "breakfast": {
+        "japanese": {
+          "name": [
+            "ごはん",
+            "味唱汁"
+          ],
+          "allergy": [],
+          "calories": "3900"
+        },
+        "western": {
+          "name": [
+            "パン",
+            "ミネストローネ"
+          ],
+          "allergy": [],
+          "calories": "22"
+        },
+        "plate_sides": [
+          {
+            "name": [
+              "駒肉のパプリカ焼き"
+            ],
+            "allergy": [],
+            "calories": "104"
+          },
+          {
+            "name": [
+              "蒸し野菜"
+            ],
+            "allergy": [],
+            "calories": "6"
+          }
+        ],
+        "bowl_sides": [
+          {
+            "name": [
+              "ロールキヤベツ"
+            ],
+            "allergy": [],
+            "calories": "67"
+          },
+          {
+            "name": [
+              "みたらし岡子"
+            ],
+            "allergy": [],
+            "calories": "24"
+          },
+          {
+            "name": [
+              "生卵"
+            ],
+            "allergy": [],
+            "calories": ""
+          },
+          {
+            "name": [
+              "納豆"
+            ],
+            "allergy": [],
+            "calories": "2"
+          }
+        ]
+      },
+      "lunch": {
+        "lunch_sides": {
+          "name": [
+            "蓑ごはん",
+            "味唱汁",
+            "満足コ別-野タルタ",
+            "白滝のチャプチェ"
+          ],
+          "allergy": [],
+          "calories": "10023"
+        },
+        "don_set": {
+          "name": [
+            "味唱汁",
+            "ジャージヤー飯",
+            "カニ団子の中華あん"
+          ],
+          "allergy": [],
+          "calories": "7197"
+        },
+        "noodle_set": {
+          "name": [
+            "肉そば",
+            "イカとオクラの納豆和",
+            "え"
+          ],
+          "allergy": [],
+          "calories": "77"
+        }
+      },
+      "dinner": {
+        "dinner_sides": {
+          "name": [
+            "霧",
+            "駒し"
+          ],
+          "allergy": [],
+          "calories": "936"
+        },
+        "don_or_noodle_set": {
+          "name": [
+            "味噌汁",
+            "喬と宝"
+          ],
+          "allergy": [],
+          "calories": "104"
+        },
+        "dessert": {
+          "name": [
+            "みかんゼリー"
+          ],
+          "allergy": [],
+          "calories": "43"
+        }
+      }
+    }
+  },
+  {
+    "date": "2025-01-07",
+    "meal_time": {
+      "breakfast": {
+        "japanese": {
+          "name": [
+            "ごはん",
+            "味唱汁"
+          ],
+          "allergy": [],
+          "calories": "304"
+        },
+        "western": {
+          "name": [
+            "バン",
+            "オニオンスープ"
+          ],
+          "allergy": [],
+          "calories": "0"
+        },
+        "plate_sides": [
+          {
+            "name": [
+              "厚焼卵"
+            ],
+            "allergy": [],
+            "calories": "42"
+          },
+          {
+            "name": [
+              "三二野菜サラダ"
+            ],
+            "allergy": [],
+            "calories": ""
+          }
+        ],
+        "bowl_sides": [
+          {
+            "name": [
+              "五月大豆"
+            ],
+            "allergy": [],
+            "calories": "5"
+          },
+          {
+            "name": [
+              "ハムカツ"
+            ],
+            "allergy": [],
+            "calories": ""
+          },
+          {
+            "name": [
+              "ごぼうサラダ"
+            ],
+            "allergy": [],
+            "calories": "64"
+          },
+          {
+            "name": [
+              "納豆"
+            ],
+            "allergy": [],
+            "calories": ""
+          }
+        ]
+      },
+      "lunch": {
+        "lunch_sides": {
+          "name": [
+            "ごはん",
+            "きのこ中華スープ",
+            "白身魚のチーズ照り",
+            "焼き",
+            "ひじきとベーコン煮"
+          ],
+          "allergy": [],
+          "calories": "4"
+        },
+        "don_set": {
+          "name": [
+            "きのこ中華スープ",
+            "鶏手リ井",
+            "イカと大根のとろみ煮"
+          ],
+          "allergy": [],
+          "calories": "068"
+        },
+        "noodle_set": {
+          "name": [
+            "かき揚げうどん",
+            "肉國子と根菜の煮物"
+          ],
+          "allergy": [],
+          "calories": "44"
+        }
+      },
+      "dinner": {
+        "dinner_sides": {
+          "name": [
+            "ヴ",
+            "豚力ツ",
+            "五月野菜州め"
+          ],
+          "allergy": [],
+          "calories": "68"
+        },
+        "don_or_noodle_set": {
+          "name": [
+            "カレーうどん",
+            "お好み焼き風チキン",
+            "ソテ"
+          ],
+          "allergy": [],
+          "calories": "38"
+        },
+        "dessert": {
+          "name": [
+            "青リンゴゼリー"
+          ],
+          "allergy": [],
+          "calories": "58"
+        }
+      }
+    }
+  },
+  {
+    "date": "2025-01-08",
+    "meal_time": {
+      "breakfast": {
+        "japanese": {
+          "name": [
+            "ごはん",
+            "味唱汁"
+          ],
+          "allergy": [],
+          "calories": "38"
+        },
+        "western": {
+          "name": [
+            "パン",
+            "コンリ-ムスプ"
+          ],
+          "allergy": [],
+          "calories": ""
+        },
+        "plate_sides": [
+          {
+            "name": [
+              "コーンコロッケ"
+            ],
+            "allergy": [],
+            "calories": "145"
+          },
+          {
+            "name": [
+              "蒸し野菜"
+            ],
+            "allergy": [],
+            "calories": ""
+          }
+        ],
+        "bowl_sides": [
+          {
+            "name": [
+              "豚肉と大根の蒲物"
+            ],
+            "allergy": [],
+            "calories": "54"
+          },
+          {
+            "name": [
+              "マカロニサラダ"
+            ],
+            "allergy": [],
+            "calories": "85"
+          },
+          {
+            "name": [
+              "バナナ"
+            ],
+            "allergy": [],
+            "calories": "34"
+          },
+          {
+            "name": [
+              "納豆"
+            ],
+            "allergy": [],
+            "calories": "2"
+          }
+        ]
+      },
+      "lunch": {
+        "lunch_sides": {
+          "name": [
+            "野舞幣-",
+            "法蓮草とコーンのバ",
+            "ター妙め"
+          ],
+          "allergy": [],
+          "calories": "07"
+        },
+        "don_set": {
+          "name": [
+            "野菜クリームスープ",
+            "とろつとオムライス",
+            "野菜サラダ"
+          ],
+          "allergy": [],
+          "calories": "4"
+        },
+        "noodle_set": {
+          "name": [
+            "担々菊",
+            "豚串力ツ"
+          ],
+          "allergy": [],
+          "calories": "792"
+        }
+      },
+      "dinner": {
+        "dinner_sides": {
+          "name": [
+            "'はん",
+            "味園汁",
+            "くシ野騎"
+          ],
+          "allergy": [],
+          "calories": "07"
+        },
+        "don_or_noodle_set": {
+          "name": [
+            "味唱汁",
+            "ジャ_}籍サラ",
+            "ダ"
+          ],
+          "allergy": [],
+          "calories": "73"
+        },
+        "dessert": {
+          "name": [
+            "自家製プリン"
+          ],
+          "allergy": [],
+          "calories": "66"
+        }
+      }
+    }
+  },
+  {
+    "date": "2025-01-09",
+    "meal_time": {
+      "breakfast": {
+        "japanese": {
+          "name": [
+            "ごはん",
+            "味噌汁"
+          ],
+          "allergy": [],
+          "calories": "38"
+        },
+        "western": {
+          "name": [
+            "パン",
+            "パッアギグ-4ス-プ"
+          ],
+          "allergy": [],
+          "calories": "240"
+        },
+        "plate_sides": [
+          {
+            "name": [
+              "蓮根はさみ揚げ"
+            ],
+            "allergy": [],
+            "calories": "4"
+          },
+          {
+            "name": [
+              "三二野菜サラダ"
+            ],
+            "allergy": [],
+            "calories": "3"
+          }
+        ],
+        "bowl_sides": [
+          {
+            "name": [
+              "スクランブルエッグ"
+            ],
+            "allergy": [],
+            "calories": "100"
+          },
+          {
+            "name": [
+              "笹かま"
+            ],
+            "allergy": [],
+            "calories": "043"
+          },
+          {
+            "name": [
+              "乳酸菌飲料"
+            ],
+            "allergy": [],
+            "calories": "63"
+          },
+          {
+            "name": [
+              "納豆"
+            ],
+            "allergy": [],
+            "calories": "2"
+          }
+        ]
+      },
+      "lunch": {
+        "lunch_sides": {
+          "name": [
+            "ごはん",
+            "味と汀",
+            "白身魚のけんちん焼",
+            "き",
+            "ニラ玉州め"
+          ],
+          "allergy": [],
+          "calories": "13"
+        },
+        "don_set": {
+          "name": [
+            "味唱汁",
+            "ネバネバ豚井",
+            "白菜と肉國子の蒲込",
+            "み"
+          ],
+          "allergy": [],
+          "calories": "8"
+        },
+        "noodle_set": {
+          "name": [
+            "台湾汁なし焼そば",
+            "勇肉のバジル風味焼",
+            "き"
+          ],
+          "allergy": [],
+          "calories": "818"
+        }
+      },
+      "dinner": {
+        "dinner_sides": {
+          "name": [
+            "味噌汁",
+            ",露ろ舞崎"
+          ],
+          "allergy": [],
+          "calories": "2199730"
+        },
+        "don_or_noodle_set": {
+          "name": [
+            "けんちんうどん",
+            "キャベツたっぷリメン",
+            "チカツ"
+          ],
+          "allergy": [],
+          "calories": "7"
+        },
+        "dessert": {
+          "name": [
+            "ヨーグルト"
+          ],
+          "allergy": [],
+          "calories": "64"
+        }
+      }
+    }
+  },
+  {
+    "date": "2025-01-10",
+    "meal_time": {
+      "breakfast": {
+        "japanese": {
+          "name": [
+            "ごはん",
+            "味噌汁"
+          ],
+          "allergy": [],
+          "calories": "38"
+        },
+        "western": {
+          "name": [
+            "パン",
+            "野まクリームスープ"
+          ],
+          "allergy": [],
+          "calories": "34"
+        },
+        "plate_sides": [
+          {
+            "name": [
+              "ウインナー"
+            ],
+            "allergy": [],
+            "calories": "128"
+          },
+          {
+            "name": [
+              "蒸し野菜"
+            ],
+            "allergy": [],
+            "calories": ""
+          }
+        ],
+        "bowl_sides": [
+          {
+            "name": [
+              "里芋のしぐれ煮"
+            ],
+            "allergy": [],
+            "calories": "63"
+          },
+          {
+            "name": [
+              "生卵"
+            ],
+            "allergy": [],
+            "calories": ""
+          },
+          {
+            "name": [
+              "フライドポテト"
+            ],
+            "allergy": [],
+            "calories": ""
+          },
+          {
+            "name": [
+              "納豆"
+            ],
+            "allergy": [],
+            "calories": "2"
+          }
+        ]
+      },
+      "lunch": {
+        "lunch_sides": {
+          "name": [
+            "妻ごはん",
+            "味唱汁",
+            "ポークステーキシャリ",
+            "アピンソース",
+            "高野豆腐の玉子とじ"
+          ],
+          "allergy": [],
+          "calories": "2"
+        },
+        "don_set": {
+          "name": [
+            "味噌汁",
+            "イカリングフライカ",
+            "レ",
+            "春雨サラダ"
+          ],
+          "allergy": [],
+          "calories": ""
+        },
+        "noodle_set": {
+          "name": [
+            "獅油ラーメン",
+            "翔依子"
+          ],
+          "allergy": [],
+          "calories": "504"
+        }
+      },
+      "dinner": {
+        "dinner_sides": {
+          "name": [
+            "ごはん",
+            "黒磯甚き",
+            "竹輪ともやしの梅ポン",
+            "酢和え"
+          ],
+          "allergy": [],
+          "calories": ""
+        },
+        "don_or_noodle_set": {
+          "name": [
+            "かき玉汁",
+            "中華飯",
+            "ハムポテトフライ"
+          ],
+          "allergy": [],
+          "calories": "92"
+        },
+        "dessert": {
+          "name": [
+            "白桃岳"
+          ],
+          "allergy": [],
+          "calories": "44"
+        }
+      }
+    }
+  },
+  {
+    "date": "2025-01-11",
+    "meal_time": {
+      "breakfast": {
+        "japanese": {
+          "name": [
+            "ごはん",
+            "味噌汁"
+          ],
+          "allergy": [],
+          "calories": "380"
+        },
+        "western": {
+          "name": [
+            ""
+          ],
+          "allergy": [],
+          "calories": ""
+        },
+        "plate_sides": [
+          {
+            "name": [
+              ""
+            ],
+            "allergy": [],
+            "calories": ""
+          },
+          {
+            "name": [
+              ""
+            ],
+            "allergy": [],
+            "calories": ""
+          }
+        ],
+        "bowl_sides": [
+          {
+            "name": [
+              "切千大根煮"
+            ],
+            "allergy": [],
+            "calories": "35"
+          },
+          {
+            "name": [],
+            "allergy": [],
+            "calories": "22"
+          },
+          {
+            "name": [
+              "ミこたい焼き"
+            ],
+            "allergy": [],
+            "calories": ""
+          },
+          {
+            "name": [
+              "納豆"
+            ],
+            "allergy": [],
+            "calories": "2"
+          }
+        ]
+      },
+      "lunch": {
+        "lunch_sides": {
+          "name": [
+            "ごはん",
+            "すまし汁",
+            "揚げ魚のマヨソース",
+            "奥肉の塩だれ焼き"
+          ],
+          "allergy": [],
+          "calories": "6"
+        },
+        "don_set": {
+          "name": [
+            ""
+          ],
+          "allergy": [],
+          "calories": ""
+        },
+        "noodle_set": {
+          "name": [
+            "きつねうどん",
+            "肉じゃがコロッケ"
+          ],
+          "allergy": [],
+          "calories": "637"
+        }
+      },
+      "dinner": {
+        "dinner_sides": {
+          "name": [
+            "\"はん",
+            "味唱汁",
+            "えびカツ",
+            "じゃが芋の三色妙め"
+          ],
+          "allergy": [],
+          "calories": "39"
+        },
+        "don_or_noodle_set": {
+          "name": [
+            "味唱汁",
+            "豚焼肉井",
+            "鶏つくねの照り議"
+          ],
+          "allergy": [],
+          "calories": "32"
+        },
+        "dessert": {
+          "name": [
+            "コーヒーゼリー"
+          ],
+          "allergy": [],
+          "calories": "42"
+        }
+      }
+    }
+  },
+  {
+    "date": "2025-01-12",
+    "meal_time": {
+      "breakfast": {
+        "japanese": {
+          "name": [
+            "ごはん",
+            "味唱汁"
+          ],
+          "allergy": [],
+          "calories": "395"
+        },
+        "western": {
+          "name": [
+            ""
+          ],
+          "allergy": [],
+          "calories": ""
+        },
+        "plate_sides": [
+          {
+            "name": [
+              ""
+            ],
+            "allergy": [],
+            "calories": ""
+          },
+          {
+            "name": [
+              ""
+            ],
+            "allergy": [],
+            "calories": ""
+          }
+        ],
+        "bowl_sides": [
+          {
+            "name": [
+              "きんぴらごぼう"
+            ],
+            "allergy": [],
+            "calories": "20"
+          },
+          {
+            "name": [
+              "チキンナゲット"
+            ],
+            "allergy": [],
+            "calories": "9"
+          },
+          {
+            "name": [
+              "生卵"
+            ],
+            "allergy": [],
+            "calories": "0"
+          },
+          {
+            "name": [
+              "納豆"
+            ],
+            "allergy": [],
+            "calories": "2"
+          }
+        ]
+      },
+      "lunch": {
+        "lunch_sides": {
+          "name": [
+            "菜子パン",
+            "おにぎり",
+            "デザート",
+            "牛乳"
+          ],
+          "allergy": [],
+          "calories": "26"
+        },
+        "don_set": {
+          "name": [
+            ""
+          ],
+          "allergy": [],
+          "calories": ""
+        },
+        "noodle_set": {
+          "name": [
+            ""
+          ],
+          "allergy": [],
+          "calories": ""
+        }
+      },
+      "dinner": {
+        "dinner_sides": {
+          "name": [
+            "ごはん",
+            "味鳴汁",
+            "鶏のくわ焼き",
+            "ハムスクラブルエッ"
+          ],
+          "allergy": [],
+          "calories": "938"
+        },
+        "don_or_noodle_set": {
+          "name": [
+            "57",
+            "大豆三-好ぞ台",
+            "いかと野菜の塩州め"
+          ],
+          "allergy": [],
+          "calories": "92"
+        },
+        "dessert": {
+          "name": [
+            "ジョア"
+          ],
+          "allergy": [],
+          "calories": "6"
+        }
+      }
+    }
+  }
+]

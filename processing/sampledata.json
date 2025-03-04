@@ -1,0 +1,613 @@
+[
+  {
+    "date": "2025-01-27",
+    "meal_time":
+      {
+        "breakfast": {
+          "japanese": {
+            "name": ["味噌汁", "ごはん"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "390"
+          },
+          "western": {
+            "name": ["パン", "オニオンスープ"],
+            "allergy": ["小麦", "乳"],
+            "calories": "201"
+          },
+          "plate_sides": [
+            {
+              "name": ["ベーコン"],
+              "allergy": ["卵", "乳"],
+              "calories": "80"
+            },
+            {
+              "name": ["蒸し野菜"],
+              "allergy": [],
+              "calories": "8"
+            }
+          ],
+          "bowl_sides": [
+            {
+              "name": ["大根フレーク煮"],
+              "allergy": ["小麦"],
+              "calories": "29"
+            },
+            {
+              "name": ["ミニコロッケ"],
+              "allergy": ["小麦", "乳"],
+              "calories": "88"
+            },
+            {
+              "name": ["フルーツヨーグルト"],
+              "allergy": ["乳"],
+              "calories": "37"
+            },
+            {
+              "name": ["納豆"],
+              "allergy": ["小麦"],
+              "calories": "82"
+            }
+          ]
+        },
+        "lunch": {
+          "lunch_sides": {
+            "name": ["麦ごはん", "味噌汁", "豚肉のバーベキューソース", "しめじのおろし酢和え"],
+            "allergy": ["小麦"],
+            "calories": "846"
+          },
+          "don_set": {
+            "name": ["味噌汁", "親子丼", "じゃがいものカレー煮"],
+            "allergy": ["小麦", "卵"],
+            "calories": "895"
+          },
+          "noodle_set": {
+            "name": ["醤油ラーメン", "豚串カツ"],
+            "allergy": ["小麦", "乳"],
+            "calories": "506"
+          }
+        },
+        "dinner": {
+          "dinner_sides": {
+            "name": ["ごはん", "中華風コーンスープ", "ドイツ風ブラウンシチュー", "ハムサラダ"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "952"
+          },
+          "don_or_noodle_set": {
+            "name": ["中華風コーンスープ", "キムチビビンバ", "キャベツのじゃこオイルソース"],
+            "allergy": ["えび", "かに", "小麦", "卵", "乳"],
+            "calories": "782"
+          },
+          "dessert": {
+            "name": ["みかんゼリー"],
+            "allergy": [],
+            "calories": "43"
+          }
+        }
+      }
+
+  },
+  {
+    "date": "2025-01-28",
+    "meal_time":
+      {
+        "breakfast": {
+          "japanese": {
+            "name": ["ごはん", "味噌汁"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "381"
+          },
+          "western": {
+            "name": ["パン", "パンプキンクリームスープ"],
+            "allergy": ["小麦", "乳"],
+            "calories": "249"
+          },
+          "plate_sides": [
+            {
+              "name": ["ミニオムレツ"],
+              "allergy": ["小麦", "卵", "乳"],
+              "calories": "37"
+            },
+            {
+              "name": ["ミニ野菜サラダ"],
+              "allergy": [],
+              "calories": "3"
+            }
+          ],
+          "bowl_sides": [
+            {
+              "name": ["鶏と里芋の味噌煮"],
+              "allergy": [],
+              "calories": "72"
+            },
+            {
+              "name": ["ごぼうサラダ"],
+              "allergy": ["小麦", "卵"],
+              "calories": "64"
+            },
+            {
+              "name": ["コーンコロッケ"],
+              "allergy": ["小麦", "乳"],
+              "calories": "145"
+            },
+            {
+              "name": ["納豆"],
+              "allergy": ["小麦"],
+              "calories": "82"
+            }
+          ]
+        },
+        "lunch": {
+          "lunch_sides": {
+            "name": ["ごはん", "味噌汁", "鯖のおろしあん", "肉詰いなりの煮物"],
+            "allergy": ["小麦", "卵"],
+            "calories": "900"
+          },
+          "don_set": {
+            "name": ["味噌汁", "肉丼", "法蓮草とコーンのバター炒め"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "842"
+          },
+          "noodle_set": {
+            "name": ["ちくわ天うどん", "ウィンナーと玉ねぎの甘酢炒め"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "531"
+          }
+        },
+        "dinner": {
+          "dinner_sides": {
+            "name": ["ごはん", "わかめスープ", "鶏肉の黒胡椒揚げ", "高野豆腐のそぼろかけ"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "822"
+          },
+          "don_or_noodle_set": {
+            "name": ["きつねうどん", "鶏肉のバジル風味焼き"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "505"
+          },
+          "dessert": {
+            "name": ["パインゼリー"],
+            "allergy": [],
+            "calories": "44"
+          }
+        }
+      }
+
+  },
+  {
+    "date": "2025-01-29",
+    "meal_time":
+      {
+        "breakfast": {
+          "japanese": {
+            "name": ["ごはん", "味噌汁"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "383"
+          },
+          "western": {
+            "name": ["パン", "小松菜スープ"],
+            "allergy": ["小麦", "乳"],
+            "calories": "196"
+          },
+          "plate_sides": [
+            {
+              "name": ["ウインナー"],
+              "allergy": ["小麦", "卵", "乳"],
+              "calories": "125"
+            },
+            {
+              "name": ["もやし炒め"],
+              "allergy": [],
+              "calories": "113"
+            }
+          ],
+          "bowl_sides": [
+            {
+              "name": ["切干大根の煮付"],
+              "allergy": ["小麦"],
+              "calories": "66"
+            },
+            {
+              "name": ["たこ焼き"],
+              "allergy": ["小麦", "卵"],
+              "calories": "51"
+            },
+            {
+              "name": ["マカロニサラダ"],
+              "allergy": ["小麦", "卵"],
+              "calories": "55"
+            },
+            {
+              "name": ["納豆"],
+              "allergy": ["小麦"],
+              "calories": "82"
+            }
+          ]
+        },
+        "lunch": {
+          "lunch_sides": {
+            "name": ["麦ごはん", "山菜汁", "鯖のフリッター茸あん", "牛すじ大根"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "628"
+          },
+          "don_set": {
+            "name": ["山菜汁", "麻婆天津飯", "春巻"],
+            "allergy": ["えび", "かに", "小麦", "卵", "乳"],
+            "calories": "1058"
+          },
+          "noodle_set": {
+            "name": ["ジャージャー麺", "キャベツと豚肉のチャンプルー"],
+            "allergy": ["小麦"],
+            "calories": "595"
+          }
+        },
+        "dinner": {
+          "dinner_sides": {
+            "name": ["ごはん", "コーンクリームスープ", "牛ステーキ", "ほうれん草サラダ"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "1302"
+          },
+          "don_or_noodle_set": {
+            "name": [""],
+            "allergy": [],
+            "calories": ""
+          },
+          "dessert": {
+            "name": ["自家製プリン"],
+            "allergy": ["乳"],
+            "calories": "66"
+          }
+        }
+      }
+
+  },
+  {
+    "date": "2025-01-30",
+    "meal_time":
+      {
+        "breakfast": {
+          "japanese": {
+            "name": ["ごはん", "味噌汁"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "381"
+          },
+          "western": {
+            "name": ["パン", "えのきコンソメスープ"],
+            "allergy": ["小麦", "乳"],
+            "calories": "194"
+          },
+          "plate_sides": [
+            {
+              "name": ["鯖の塩焼き"],
+              "allergy": ["小麦"],
+              "calories": "60"
+            },
+            {
+              "name": ["ミニ野菜サラダ"],
+              "allergy": [],
+              "calories": "3"
+            }
+          ],
+          "bowl_sides": [
+            {
+              "name": ["かぼちゃ挽きフライ"],
+              "allergy": ["小麦", "卵", "乳"],
+              "calories": "167"
+            },
+            {
+              "name": ["笹かま"],
+              "allergy": ["小麦", "卵"],
+              "calories": "27"
+            },
+            {
+              "name": ["乳酸菌飲料"],
+              "allergy": ["乳"],
+              "calories": "63"
+            },
+            {
+              "name": ["納豆"],
+              "allergy": ["小麦"],
+              "calories": "82"
+            }
+          ]
+        },
+        "lunch": {
+          "lunch_sides": {
+            "name": ["ごはん", "すまし汁", "鶏の胡麻照焼き", "厚揚げの生姜風味煮"],
+            "allergy": ["小麦"],
+            "calories": "975"
+          },
+          "don_set": {
+            "name": ["すまし汁", "豚肉と茄子の辛味噌炒め丼", "鶏つくねの照り煮"],
+            "allergy": ["小麦", "乳"],
+            "calories": "935"
+          },
+          "noodle_set": {
+            "name": ["焼きそば", "ベーコンサラダ"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "654"
+          }
+        },
+        "dinner": {
+          "dinner_sides": {
+            "name": ["ごはん", "味噌汁", "白身魚の明太マヨチーズ焼き", "大豆のコンソメ煮"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "1886"
+          },
+          "don_or_noodle_set": {
+            "name": ["名古屋赤味噌ラーメン", "アジフライ"],
+            "allergy": ["小麦", "乳"],
+            "calories": "530"
+          },
+          "dessert": {
+            "name": ["ヨーグルト"],
+            "allergy": ["乳"],
+            "calories": "64"
+          }
+        }
+      }
+
+  },
+  {
+    "date": "2025-01-31",
+    "meal_time":
+      {
+        "breakfast": {
+          "japanese": {
+            "name": ["ごはん", "味噌汁"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "392"
+          },
+          "western": {
+            "name": ["パン", "ミネストローネ"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "221"
+          },
+          "plate_sides": [
+            {
+              "name": ["チキンナゲット"],
+              "allergy": ["小麦", "卵", "乳"],
+              "calories": "131"
+            },
+            {
+              "name": ["フライドポテト"],
+              "allergy": ["小麦"],
+              "calories": "72"
+            }
+          ],
+          "bowl_sides": [
+            {
+              "name": ["里芋のしぐれ煮"],
+              "allergy": ["小麦"],
+              "calories": "63"
+            },
+            {
+              "name": ["ミニたい焼き"],
+              "allergy": ["小麦", "卵", "乳"],
+              "calories": "94"
+            },
+            {
+              "name": ["生卵"],
+              "allergy": ["卵"],
+              "calories": "71"
+            },
+            {
+              "name": ["納豆"],
+              "allergy": ["小麦"],
+              "calories": "82"
+            }
+          ]
+        },
+        "lunch": {
+          "lunch_sides": {
+            "name": ["麦ごはん", "ポテトコンソメスープ", "白身さかなの味噌マヨネーズ焼き", "チーズスクランブルエッグ"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "753"
+          },
+          "don_set": {
+            "name": ["ポテトコンソメスープ", "カニクリームくろっけカレー", "キャベツと蒲鉾の香味梅和え"],
+            "allergy": ["えび", "かに", "小麦", "卵", "乳"],
+            "calories": "918"
+          },
+          "noodle_set": {
+            "name": ["かき玉うどん", "海老海鮮餃子"],
+            "allergy": ["えび", "小麦", "卵", "乳"],
+            "calories": "508"
+          }
+        },
+        "dinner": {
+          "dinner_sides": {
+            "name": ["ごはん", "味噌汁", "豚肉のスタミナ炒め", "鶏肉と大豆の五目煮"],
+            "allergy": ["小麦"],
+            "calories": "942"
+          },
+          "don_or_noodle_set": {
+            "name": ["味噌味", "北海丼", "カニ団子のチリソース"],
+            "allergy": ["かに", "小麦", "卵", "乳"],
+            "calories": "690"
+          },
+          "dessert": {
+            "name": ["白桃缶"],
+            "allergy": [],
+            "calories": "44"
+          }
+        }
+      }
+
+  },
+  {
+    "date": "2025-02-01",
+    "meal_time":
+      {
+        "breakfast": {
+          "japanese": {
+            "name": ["ごはん", "味噌汁"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "381"
+          },
+          "western": {
+            "name": [""],
+            "allergy": [],
+            "calories": ""
+          },
+          "plate_sides": [
+            {
+              "name": [""],
+              "allergy": [],
+              "calories": ""
+            },
+            {
+              "name": [""],
+              "allergy": [],
+              "calories": ""
+            }
+          ],
+          "bowl_sides": [
+            {
+              "name": ["タラフライ"],
+              "allergy": ["小麦"],
+              "calories": "82"
+            },
+            {
+              "name": ["ポテトサラダ"],
+              "allergy": ["卵"],
+              "calories": "43"
+            },
+            {
+              "name": ["ひじき煮"],
+              "allergy": ["小麦"],
+              "calories": "25"
+            },
+            {
+              "name": ["納豆"],
+              "allergy": ["小麦"],
+              "calories": "82"
+            }
+          ]
+        },
+        "lunch": {
+          "lunch_sides": {
+            "name": ["ごはん", "味噌汁", "鯖の黒酢あんかけ", "鶏肉の塩だれ焼き"],
+            "allergy": ["小麦", "卵"],
+            "calories": "925"
+          },
+          "don_set": {
+            "name": [""],
+            "allergy": [],
+            "calories": ""
+          },
+          "noodle_set": {
+            "name": ["担々麺", "じゃがいもの三色炒め"],
+            "allergy": ["小麦", "落花生"],
+            "calories": "804"
+          }
+        },
+        "dinner": {
+          "dinner_sides": {
+            "name": ["ごはん", "味噌汁", "チキンカツ", "青菜の胡麻和え"],
+            "allergy": ["小麦", "卵"],
+            "calories": "794"
+          },
+          "don_or_noodle_set": {
+            "name": ["味噌汁", "豚肉のうなたれ丼", "ツナとオニオンの辛子醤油和え"],
+            "allergy": ["小麦", "卵"],
+            "calories": "921"
+          },
+          "dessert": {
+            "name": ["プリン"],
+            "allergy": ["卵", "乳"],
+            "calories": "84"
+          }
+        }
+      }
+
+  },
+  {
+    "date": "2025-02-02",
+    "meal_time":
+      {
+        "breakfast": {
+          "japanese": {
+            "name": ["ごはん", "味噌汁"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "395"
+          },
+          "western": {
+            "name": [""],
+            "allergy": [],
+            "calories": ""
+          },
+          "plate_sides": [
+            {
+              "name": [""],
+              "allergy": [],
+              "calories": ""
+            },
+            {
+              "name": [""],
+              "allergy": [],
+              "calories": ""
+            }
+          ],
+          "bowl_sides": [
+            {
+              "name": ["イカドーナツフライ"],
+              "allergy": ["小麦", "卵", "乳"],
+              "calories": "60"
+            },
+            {
+              "name": ["ミニ焼売"],
+              "allergy": ["小麦", "乳"],
+              "calories": "57"
+            },
+            {
+              "name": ["生卵"],
+              "allergy": ["卵"],
+              "calories": "71"
+            },
+            {
+              "name": ["納豆"],
+              "allergy": ["小麦"],
+              "calories": "82"
+            }
+          ]
+        },
+        "lunch": {
+          "lunch_sides": {
+            "name": ["菓子パン", "おにぎり", "デザート", "牛乳"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "735"
+          },
+          "don_set": {
+            "name": [""],
+            "allergy": [],
+            "calories": ""
+          },
+          "noodle_set": {
+            "name": [""],
+            "allergy": [],
+            "calories": ""
+          }
+        },
+        "dinner": {
+          "dinner_sides": {
+            "name": ["ごはん", "味噌汁", "豚肉の梅醤油焼き", "白菜とベーコンの旨煮"],
+            "allergy": ["小麦", "卵", "乳"],
+            "calories": "851"
+          },
+          "don_or_noodle_set": {
+            "name": ["なめこおろしうどん", "エビグラタンフライ"],
+            "allergy": ["えび", "小麦", "卵", "乳"],
+            "calories": "548"
+          },
+          "dessert": {
+            "name": ["ジョア"],
+            "allergy": ["乳"],
+            "calories": "63"
+          }
+        }
+      }
+
+  }
+]
+
+
