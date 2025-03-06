@@ -15,6 +15,6 @@ There are 2 main folders and the SQL file for the database.
 - Run main.py and look in the output folder for the data.json file
 - Use loader.py to parse and insert the dishes in the menu onto the database
 
-The main.ipynb file is there for debugging or to help with making improvements to the OCR. 
-The ttf font file is used for visualizing what has been read from the menu.
+The main.ipynb file is there for debugging or to help with making improvements to the OCR. <br/>
+The ttf font file is used for visualizing what has been read from the menu. <br/>
 The sampledata.json is what an ideal output would look like, from main.py (but currently, main.py is unable to do that)
