@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 31, 2025 at 06:06 AM
+-- Generation Time: Mar 07, 2025 at 10:59 AM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,88 @@ SET time_zone = "+00:00";
 --
 -- Database: `student_meals_db`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `allergies`
+--
+
+CREATE TABLE `allergies` (
+  `id` int(11) NOT NULL,
+  `student_id` int(11) NOT NULL,
+  `allergy` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `students`
+--
+
+CREATE TABLE `students` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `student_no` varchar(20) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `students`
+--
+
+INSERT INTO `students` (`id`, `name`, `student_no`, `email`, `password`, `created_at`) VALUES
+(1, 'y', '00000008', 'wer@erdsg.sertyt', '$2y$10$SCnFX0viYsPIuwsm8NbUcOeQU4h22jhzb0zcsYz4EZ16R.Rg.kafy', '2025-03-06 01:46:55');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `students_has_meal_request`
+--
+
+CREATE TABLE `students_has_meal_request` (
+  `id` int(11) NOT NULL,
+  `student_no` varchar(20) NOT NULL,
+  `meal_request_date` date NOT NULL,
+  `breakfast` tinyint(1) DEFAULT 0,
+  `lunch` tinyint(1) DEFAULT 0,
+  `dinner` tinyint(1) DEFAULT 0,
+  `disabled` tinyint(1) DEFAULT 0,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `students_has_meal_request`
+--
+
+INSERT INTO `students_has_meal_request` (`id`, `student_no`, `meal_request_date`, `breakfast`, `lunch`, `dinner`, `disabled`, `created_at`, `updated_at`) VALUES
+(1, '00000008', '2025-03-08', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(2, '00000008', '2025-03-09', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(3, '00000008', '2025-03-10', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(4, '00000008', '2025-03-11', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(5, '00000008', '2025-03-12', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(6, '00000008', '2025-03-13', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(7, '00000008', '2025-03-14', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(8, '00000008', '2025-03-15', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(9, '00000008', '2025-03-16', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(10, '00000008', '2025-03-17', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(11, '00000008', '2025-03-18', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(12, '00000008', '2025-03-19', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(13, '00000008', '2025-03-20', 1, 1, 1, 0, '2025-03-06 08:57:21', '2025-03-06 08:57:21'),
+(14, '00000008', '2025-03-21', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(15, '00000008', '2025-03-22', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(16, '00000008', '2025-03-23', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(17, '00000008', '2025-03-24', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(18, '00000008', '2025-03-25', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(19, '00000008', '2025-03-26', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(20, '00000008', '2025-03-27', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(21, '00000008', '2025-03-28', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(22, '00000008', '2025-03-29', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(23, '00000008', '2025-03-30', 1, 1, 1, 0, '2025-03-06 08:57:22', '2025-03-06 08:57:22'),
+(24, '00000008', '2025-03-31', 1, 0, 1, 1, '2025-03-06 08:57:22', '2025-03-06 08:58:26');
 
 -- --------------------------------------------------------
 
@@ -156,6 +238,28 @@ INSERT INTO `weekly_menu` (`id`, `date`, `day_of_week`, `meal_time`, `meal_type`
 --
 
 --
+-- Indexes for table `allergies`
+--
+ALTER TABLE `allergies`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `student_id` (`student_id`);
+
+--
+-- Indexes for table `students`
+--
+ALTER TABLE `students`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `student_no` (`student_no`),
+  ADD UNIQUE KEY `email` (`email`);
+
+--
+-- Indexes for table `students_has_meal_request`
+--
+ALTER TABLE `students_has_meal_request`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `unique_request` (`student_no`,`meal_request_date`);
+
+--
 -- Indexes for table `weekly_menu`
 --
 ALTER TABLE `weekly_menu`
@@ -166,10 +270,38 @@ ALTER TABLE `weekly_menu`
 --
 
 --
+-- AUTO_INCREMENT for table `allergies`
+--
+ALTER TABLE `allergies`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `students`
+--
+ALTER TABLE `students`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `students_has_meal_request`
+--
+ALTER TABLE `students_has_meal_request`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+
+--
 -- AUTO_INCREMENT for table `weekly_menu`
 --
 ALTER TABLE `weekly_menu`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=171;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `allergies`
+--
+ALTER TABLE `allergies`
+  ADD CONSTRAINT `allergies_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`) ON DELETE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
