@@ -15,11 +15,7 @@ if (isset($_GET['lang']) && ($_GET['lang'] == 'en' || $_GET['lang'] == 'ja')) {
 // Handle allergy filters
 $filters = isset($_GET['filters']) ? $_GET['filters'] : [];
 
-// Database connection
-$conn = new mysqli('localhost', 'root', '', 'student_meals_db');
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include 'db.php';
 
 // Build SQL query with allergy filters
 $allergyColumns = [

@@ -45,13 +45,7 @@ $translations = [
     ]
 ];
 
-// Connect to the database
-$conn = new mysqli('localhost', 'root', '', 'student_meals_db');
-
-// Check for connection errors
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include 'db.php';
 
 // Initialize notification message
 $notification = "";

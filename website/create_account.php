@@ -81,13 +81,7 @@ $langContent = [
 // Get the selected language content
 $currentLang = $langContent[$lang];
 
-// Connect to the database
-$conn = new mysqli('localhost', 'root', '', 'student_meals_db');
-
-// Check for connection errors
-if ($conn->connect_error) {
-    die('Connection failed: ' . $conn->connect_error);
-}
+include 'db.php';
 
 // Process form submission for creating an account
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

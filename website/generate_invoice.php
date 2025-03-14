@@ -9,11 +9,7 @@ $studentNo = isset($_SESSION['student_no']) ? $_SESSION['student_no'] : '';
 // Include the Composer autoloader
 require_once __DIR__ . '/vendor/autoload.php';
 
-// Connect to the database
-$conn = new mysqli('localhost', 'root', '', 'student_meals_db');
-if ($conn->connect_error) {
-    die('Connection failed: ' . $conn->connect_error);
-}
+include 'db.php';
 
 // Fetch student name
 $queryStudentInfo = "SELECT name FROM students WHERE student_no = '$studentNo'";

@@ -5,11 +5,7 @@ error_reporting(E_ALL);
 
 session_start();
 
-// Connect to the database
-$conn = new mysqli('localhost', 'root', '', 'student_meals_db');
-if ($conn->connect_error) {
-    die('Connection failed: ' . $conn->connect_error);
-}
+include 'db.php';
 
 // Check if the form was submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

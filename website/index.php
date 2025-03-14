@@ -9,11 +9,7 @@ session_start();
 $lang = isset($_GET['lang']) ? $_GET['lang'] : (isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en');
 $_SESSION['lang'] = $lang;
 
-// Connect to the database
-$conn = new mysqli('localhost', 'root', '', 'student_meals_db');
-if ($conn->connect_error) {
-    die('Connection failed: ' . $conn->connect_error);
-}
+include 'db.php';
 
 // Get the student's name and number from the session
 $studentName = isset($_SESSION['student_name']) ? $_SESSION['student_name'] : '';

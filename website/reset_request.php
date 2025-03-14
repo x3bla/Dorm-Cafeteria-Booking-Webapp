@@ -5,11 +5,7 @@ session_start();
 // Include the Composer autoloader to load PHPMailer
 require 'vendor/autoload.php';
 
-// Database connection
-$conn = new mysqli('localhost', 'root', '', 'student_meals_db');
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include 'db.php';
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
