@@ -6,7 +6,9 @@ There are 2 main folders and the SQL file for the database.
 
 ### Recommended to set up a mariadb or mysql database first with the provided .sql file
 
-### The website folder is all the php code that you can throw into whatever web server app you want to use
+### The website folder contains all of the website code that you can throw into whatever web server app you want to use
+
+The vendor folder is necessary for generating pdfs using tcpdf
 
 ### The processing folder is where all of the Python code is located. Going in order of operations
 
