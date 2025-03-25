@@ -3,7 +3,7 @@ import json
 import mariadb
 
 
-with open("./output/sampledata.json", encoding="utf-8") as f:
+with open("sampledata.json", encoding="utf-8") as f:  # change the file path
     menu = json.load(f)
 
 
